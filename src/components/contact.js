@@ -14,7 +14,7 @@ export default class contact extends Component{
               </div>
               <div className="row block-9">
                 <div className="col-md-6 pr-md-5">
-                  <form action="https://api-possmessage-17521311.herokuapp.com/message" method="POST">
+                  <form action="https://api-assingment5-17521311.herokuapp.com/message" method="POST">
                     <div className="form-group">
                       <input type="text" className="form-control contactname" name="name" placeholder="Your Name"></input>
                     </div>
