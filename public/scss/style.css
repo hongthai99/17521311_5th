@@ -9882,6 +9882,12 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 
+.ftco-section ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 5em;
+}
+
 .ftco-section {
   padding: 7em 0;
 }
@@ -9986,11 +9992,12 @@ textarea.form-control {
 .ftco-counter .text {
   display: block;
   width: 100%;
+  margin-left: 6em;
 }
 
 .ftco-counter .text strong.number {
   font-weight: bold;
-  font-size: 100px;
+  font-size: 130px;
   color: #DAB7C7;
 }
 
@@ -10003,12 +10010,12 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .ftco-counter .counter-wrap {
     margin-bottom: 20px;
-    padding-left: 4em;
+    padding-left: 6em;
   }
 }
 
 .ftco-counter .ftco-label {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: .1em;
 }
@@ -10151,5 +10158,16 @@ textarea.form-control {
   right: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+#map {
+  height: 370px;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  #map {
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

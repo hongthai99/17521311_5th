@@ -175,8 +175,8 @@ export default class home extends Component{
                 <Switch>
                   <Route exact path="/skill">
                     <Skill/>
-                      </Route>
-                    </Switch>
+                  </Route>
+                </Switch>
             </Router>
             </div>
           </section>
@@ -218,6 +218,7 @@ export default class home extends Component{
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </section>

@@ -425,6 +425,11 @@ textarea.form-control {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
+	ul{
+		text-decoration: none;
+		list-style-type: none;
+		margin-left: 5em;
+	}
 }
 
 
@@ -538,9 +543,10 @@ textarea.form-control {
 	.text{
 		display: block;
 		width: 100%;
+		margin-left: 6em;
 		strong.number{
 			font-weight: bold;
-			font-size: 100px;
+			font-size: 130px;
 			color: $primary;
 			@include media-breakpoint-down(sm){
 				font-size: 80px;
@@ -553,11 +559,11 @@ textarea.form-control {
 	.counter-wrap{
 		@include media-breakpoint-down(sm){
 			margin-bottom: 20px;
-			padding-left: 4em;
+			padding-left: 6em;
 		}
 	}
 	.ftco-label {
-		font-size: 18px;
+		font-size: 20px;
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
@@ -708,6 +714,14 @@ textarea.form-control {
 		top: 50%;
 		right: 20px;
 		transform: translateY(-50%);
+	}
+}
+
+#map {
+	height: 370px;
+	width: 100%;
+	@include media-breakpoint-down(md) {
+		height: 200px;
 	}
 }
 
