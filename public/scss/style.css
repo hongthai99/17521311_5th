@@ -10057,6 +10057,17 @@ textarea.form-control {
   font-size: 15px;
 }
 
+.block-9 #map {
+  height: 370px;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .block-9 #map {
+    height: 200px;
+  }
+}
+
 .block-3 .image {
   width: 100%;
   padding: 10% 7%;
@@ -10158,16 +10169,5 @@ textarea.form-control {
   right: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-}
-
-#map {
-  height: 370px;
-  width: 100%;
-}
-
-@media (max-width: 991.98px) {
-  #map {
-    height: 200px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

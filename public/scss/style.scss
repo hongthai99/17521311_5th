@@ -631,6 +631,11 @@ textarea.form-control {
 		font-size: 15px;
 	}
 	#map {
+		height: 370px;
+		width: 100%;
+		@include media-breakpoint-down(md) {
+			height: 200px;
+		}
 	}
 }
 
@@ -717,11 +722,5 @@ textarea.form-control {
 	}
 }
 
-#map {
-	height: 370px;
-	width: 100%;
-	@include media-breakpoint-down(md) {
-		height: 200px;
-	}
-}
+
 
