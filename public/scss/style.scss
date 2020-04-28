@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5,
 			right: 0;
 			bottom: 0;
 			font-weight: 700!important;
-			color: rgba(255,255,255,.08);
+			color: rgba(255,255,255,.07);
 			text-transform: uppercase;
 			@include media-breakpoint-up(lg){
 				font-size: 10em;
@@ -295,6 +295,9 @@ h1, h2, h3, h4, h5,
 				display: none;
 			}
 		}
+	}
+	.name-title{
+		font-weight: bold;
 	}
 }
 .profile{
@@ -425,7 +428,7 @@ textarea.form-control {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
-	ul{
+	.ul-router{
 		text-decoration: none;
 		list-style-type: none;
 		margin-left: 5em;

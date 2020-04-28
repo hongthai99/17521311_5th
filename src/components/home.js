@@ -47,7 +47,7 @@ export default class home extends Component{
                                     <div className="about-desc">
                                         <h1 className="bold-text">About</h1>
                                         <div className="p-5">
-                                            <h2 className="mb-5">Hi! I'm Hong Thai,</h2>
+                                            <h2 className="mb-5 name-title">Hi! I'm Hong Thai,</h2>
                                             <p>I love Design, Technology and Story</p>
                                             <ul className="ftco-footer-social list-unstyled mt-4">
                                                 <li><a href="#"><span className="icon-facebook"></span></a></li>
@@ -148,7 +148,7 @@ export default class home extends Component{
                 </div>
               </div>
               <div className="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-                <a className="image d-flex justify-content-center align-items-center" style={{backgroundImage:'url(images/img10.jpg)'}} data-scrollax=" properties: { translateY: '-30%'}">
+                <a className="image d-flex justify-content-center align-items-center" style={{backgroundImage:'url(images/img11.JPG)'}} data-scrollax=" properties: { translateY: '-30%'}">
                 </a>
                 <div className="text">
                   <h4 className="subheading">Story</h4>
@@ -167,7 +167,7 @@ export default class home extends Component{
               </div>
             </div>
             <Router>
-              <ul>
+              <ul className="ul-router">
                 <li>
                   <Link to="/skill">Show me More</Link>
                 </li>
@@ -218,7 +218,7 @@ export default class home extends Component{
                     </div>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </section>
